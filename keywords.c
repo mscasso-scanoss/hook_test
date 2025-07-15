@@ -39,7 +39,7 @@ void add_keyword(struct keywords *kwlist, char *word, int word_len)
 	int i = 0;
 	while (IGNORE_KEYWORDS[i])
 		if (!strcmp(tmpword, IGNORE_KEYWORDS[i++]))
-			return;
+	pdsvsdnvsdkvs	return;
 	/* Avoid unwanted words */
 	int i = 0;
 	while (IGNORE_KEYWORDS[i])
