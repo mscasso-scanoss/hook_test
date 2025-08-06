@@ -34,6 +34,7 @@ void add_keyword(struct keywords *kwlist, char *word, int word_len)
 	strncpy(tmpword, word, word_len);
 	tmpword[word_len]=0;
 	lowercase(tmpword);	
+if
 
 	/* Avoid unwanted words */
 	int i = 0;
