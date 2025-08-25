@@ -13,7 +13,7 @@ int min_match_hits  = 5;  // Minimum number of snippet ID hits to produce a snip
 
 const int rank_items = 1000; // Number of items to evaluate in component and path rankings
 
-const int max_vulnerabilities = 50; // Show only the first N vulnerabilities
+const int max_vulnerabilities = 50; // Show only the first N vulnerabilities kkkk
 
 nt consecutive_score = 4000;
 int consecutive_hits = 4;
