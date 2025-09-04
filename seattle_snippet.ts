@@ -13,3 +13,4 @@ constructor(private readonly coreContext: CoreContext) {
     this.httpServer = new HttpServer(logger, 'Kibana', shutdownTimeout$);
     this.httpsRedirectServer = new HttpsRedirectServer(logger.get('http', 'redirect', 'server'));
   }
+test
