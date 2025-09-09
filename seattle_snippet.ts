@@ -18,7 +18,7 @@ constructor(private readonly coreContext: CoreContext) {
 
     this.logger = logger;
     this.env = env;
-    this.log = logger.get('http');
+    this.log = logger.get('http'); 
     this.config$ = combineLatest([
       configService.atPath<HttpConfigType>(httpConfig.path),
       configService.atPath<CspConfigType>(cspConfig.path),
